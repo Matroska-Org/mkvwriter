@@ -1,0 +1,179 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "common_container_ucontlib"=..\..\..\..\common\container\common_container_ucontlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "common_dbgtool"=..\..\..\..\common\dbgtool\common_dbgtool.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "common_fileio"=..\..\..\..\common\fileio\common_fileio.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "common_runtime"=..\..\..\..\common\runtime\common_runtime.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "common_system"=..\..\..\..\common\system\common_system.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "common_util"=..\..\..\..\common\util\common_util.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "producersdk_plugins_util"=..\..\..\..\producersdk\plugins\util\producersdk_plugins_util.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "producersdk_common_logutil"=..\..\..\..\producersdk\common\logutil\producersdk_common_logutil.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "producersdk_common_system"=..\..\..\..\producersdk\common\system\producersdk_common_system.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "datatype_mkv_fileformat_libebml_make_helix"=..\..\..\..\datatype\mkv\fileformat\libebml\make\helix\datatype_mkv_fileformat_libebml_make_helix.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "datatype_mkv_fileformat_libmatroska_make_helix"=..\..\..\..\datatype\mkv\fileformat\libmatroska\make\helix\datatype_mkv_fileformat_libmatroska_make_helix.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "producersdk_plugins_output_mkvwriter"=..\..\..\..\producersdk\plugins\output\mkvwriter\producersdk_plugins_output_mkvwriter.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name common_container_ucontlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common_dbgtool
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common_fileio
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common_runtime
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common_system
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common_util
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name producersdk_plugins_util
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name producersdk_common_logutil
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name producersdk_common_system
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name datatype_mkv_fileformat_libebml_make_helix
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name datatype_mkv_fileformat_libmatroska_make_helix
+    End Project Dependency
+}}}

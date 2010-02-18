@@ -1,0 +1,17 @@
+### UMAKE PRE-PROCESSOR OUTPUT: DO NOT CHECK INTO CVS
+### -*- Mode: Python -*-
+### files: win.pcf -> Umakefil
+
+project.AddSources('platform/win/mkvwriter.rc')
+project.AddSystemLibraries('version.lib', 'wsock32.lib', 'kernel32.lib', 'user32.lib', 'advapi32.lib', 'gdi32.lib', 'ole32.lib', 'comctl32.lib', 'uuid.lib', 'winmm.lib')
+project.AddDefines('_WIN32_USE_INTERLOCKED_INCREMENT')
+UmakefileVersion(2,1)
+project.AddModuleIncludes( 'common/include', 'common/container/pub', 'common/dbgtool/pub', 'common/fileio/pub', 'common/runtime/pub', 'common/system/pub', 'common/util/pub', 'datatype/rm/include', 'producersdk/include', 'producersdk/common/include', 'producersdk/common/container/pub', 'producersdk/plugins/util/pub', 'datatype/mkv/fileformat/libebml', 'datatype/mkv/fileformat/libmatroska' )
+if project.IsDefined("WIN32"):
+  project.AddModuleIncludes('datatype/mkv/fileformat/libebml/src/platform/win32')
+project.AddModuleLibraries( 'common/container[contlib]', 'common/dbgtool[debuglib]', 'common/fileio[fileiolib]', 'common/runtime[runtlib]', 'common/system[syslib]', 'common/util[utillib]', 'producersdk/plugins/util[pluginutillib]', 'producersdk/common/logutil[prodlogutillib]', 'producersdk/common/system[prodsyslib]', 'datatype/mkv/fileformat/libebml/make/helix[libebml]', 'datatype/mkv/fileformat/libmatroska/make/helix[libmatroska]' )
+project.AddSources( 'guids.cpp', 'mkvwriter.cpp', 'MatroskaMuxer.cpp', 'MatroskaSimpleTags.cpp', 'mkv_plugin.cpp' )
+project.AddExportedFunctions('SetDLLAccessPath', 'RMACreateInstance', 'RMAShutdown')
+DLLTarget( 'mkvwriter' )
+
+### END UMAKE PRE-PROCESSOR OUTPUT
